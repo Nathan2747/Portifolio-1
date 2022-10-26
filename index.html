@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <title> Bibliografia e Redes - Teste </title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/8090/8090621.png" 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  
+<style>
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url(https://images7.alphacoders.com/123/1237561.png) ;
+  font-family: 'Monaco';
+  background-size: 100%;
+  
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+/* Place the container to the left */
+.left {
+  left: 20%;
+}
+
+/* Place the container to the right */
+.right {
+  left: 20%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 1;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 30px 0 30px 0;
+  border-color: transparent transparent transparent white;
+  opacity: 80%;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 1;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgb(255, 255, 255);
+  border-width: 30px 0 30px 0;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
+  opacity: 80%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: 30px;
+}
+
+/* The actual content */
+.content {
+  padding: 30px 30px;
+  background-color: rgba(255, 255, 255, 0.671);
+  position: relative;
+  border-radius: 15px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 30px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 40px;
+  }
+
+
+}
+
+#info{
+font-family:Helvetica, sans-serif;
+padding: 25px;
+position: relative;
+border-radius: 0px;
+width: 100%;
+background-color: rgb(255, 255, 255, 0.877);
+color: rgb(0, 0, 0);
+}
+
+#info1{
+font-family:'Verdana';
+padding: 20px;
+position: relative;
+border-radius: 15px;
+width: 100%;
+background-color: rgba(255, 255, 255, 0.877);
+color: rgb(0, 0, 0);
+}
+
+#imagens{
+width: auto;
+border-radius: 50%;
+
+
+}
+
+</style>
+
+<div class="timeline">
+  <div class="container left">
+    <div id="info" class="content">
+      <h1>
+      🕶 Portifolio    
+      <a href="https://www.linkedin.com/in/nathanael-da-silva-58687720a/"><img id="imagens"src="https://avatars.githubusercontent.com/u/111388791?v=4" style="right: 45px; top: 40px; position: absolute" height="70"></a>
+      </h1>
+      <p>
+        <marquee>  </marquee>
+        <marquee direction="right" 
+            behavior="alternate" 
+            style="border:BLACK 2px SOLID">
+            Projeto de portifolio  
+          </marquee></br></br>
+      </p>
+    </div>
+  </div>
+</head>
+
+<body> 
+</br>
+</br>
+</br>
+<div class="timeline">
+  <div class="container left">
+    <div id="info1" class="content">
+      <marquee> Informacoes </marquee>
+        <marquee direction="right" 
+            behavior="alternate" 
+            style="border:BLACK 2px SOLID">
+            
+        </marquee></br></br>
+      <h1>
+        Mais Sobre Mim:
+      </h1>  
+      <p>
+        
+        Ola eu sou Nathanael da Silva Maia tambem chamado de <b>Nathan 2747</b> e sou estudande de ADS (Análise e Desenvolvimento de Sistemas)</br>
+        Abaixo mais das minhas informacoes e redes sociais:
+        
+      </p>
+      <a href="Curriculo.html">
+        🎓 Curriculo
+      </a>
+    </div>
+  </div>
+</br>
+<div class="container right">
+    <div class="content">
+      <center>
+      
+      <a href="https://www.facebook.com/Nathan.s2747" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Nathan.s2747" height="60" width="80" /></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+      <a href="https://www.linkedin.com/in/nathanael-da-silva-58687720a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nathanael-da-silva-58687720a/" height="60" width="80" /></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+      <a href="https://github.com/Nathan2747" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="Nathan2747" height="60" width="80" /></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+      <a href="https://www.instagram.com/nathan.s003/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Nathan2747" height="60" width="80" /></a> 
+
+    </center>
+      <p>
+        Todos os direitos reservados aos criados do site:  
+      
+      </p>
+    </div>
+  </div>
+  </br>
+  
+
+</body>
+</html>
